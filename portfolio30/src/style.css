@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  z-index: 10;
+  width: 100%;  
+}
+
+
+.navbar {
+  margin: 20px 0;
+  
+}
+
+.nav-link:hover {
+ border-top: 3px solid #FF6347;
+ border-bottom: 3px solid #FF6347;
+}
+.navbar-brand {
+}
+
+.nav-item {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+  background: #262626;
+  color: #fff;
+}
+
+.mdp {
+  border-top: 3px solid #FF6347;
+  border-bottom: 3px solid #ff6347;
+}
+
+/*banner section */
+.banner_header {
+  font-family: Crushed;
+  color: #003366;
+  text-shadow: 2px 2px black;
+}
+
+.banner_main {
+  font-family: Antic Didone;
+  font-weight: bold;
+}
+.banner {
+  
+  background: url("https://res.cloudinary.com/marpenncloud/image/upload/v1564710378/glasses-2947708_1280_nc4mie.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+  
+}
+
+.btnD1 {
+  display: inline-block;
+  margin: 1em 0 0;
+  background: #FFF;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 800;
+}
+
+.btnD1:hover {
+  color: #FF6347;
+  text-decoration: none;
+}
+
+.navbar-light .navbar-toggler {
+  border: 2px solid black;
+  border-radius: 0;
+  outline: none;
+ 
+}
+
+.about {
+  background: url("https://res.cloudinary.com/marpenncloud/image/upload/v1561574186/notebook-1280538_1280_ayzeaf.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0 200px;
+}
+
+.top {
+  margin-top: -100px;
+}
+
+.white-text {
+  color: white;
+}
+
+@media only screen and (max-width: 900px) .top {
+  margin-top: 400px;
+}
+
+.about_header {
+  color: #FF6347;
+  text-shadow: 2px 2px #ff0000;
+}
+.bottom {
+  top: -200px;
+}
